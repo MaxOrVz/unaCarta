@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px
+    ;
+    font-style: normal;
+    
+}
+
+html{
+    background-color: #FADADD;
+    display: flex;
+    justify-content: center;
+
+}
+.TODO{
+    margin-right: auto;
+
+    margin-left: auto;
+}
+
+
+.Carta{
+    width: 267px;
+    height: 168px;
+    margin-top: 320px;
+    
+}
+
+.BOTON{
+    cursor: pointer;
+    border: none;
+    background-color: #84C597;
+    color: #5999A5;
+    padding: 0.3rem;
+    border-radius: 2px;
+}
+
+.BOTON:hover{
+    background-color: #73ac84;
+}
+
+
+
+.AD-1{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 1rem;
+   
+}
+
+.Carta{
+    position: relative;
+}
+
+.ELIMNA1{
+position: absolute;
+bottom: 0px;
+
+}
+
+.an1none{
+    display: none;
+}
